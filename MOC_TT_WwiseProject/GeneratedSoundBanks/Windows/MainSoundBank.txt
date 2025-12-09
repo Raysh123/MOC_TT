@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3759927142	ButtonPressEvent			\Default Work Unit\ButtonPressEvent	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	175341722	Button Press	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\E7\{E7468DE0-10B2-E2F0-D8C9-61442A18134F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Button Press		307296
+
