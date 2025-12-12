@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{52211475-441A-4B87-9CAF-7A7A9CD07273}" SchemaVersion="123">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{52211475-441A-4B87-9CAF-7A7A9CD07273}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{52211475-441A-4B87-9CAF-7A7A9CD07273}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="WaterLevel" ID="{C959BC14-3006-4223-965F-8835E2C837BD}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

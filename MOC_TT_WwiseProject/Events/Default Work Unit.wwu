@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5CFFDBC3-C99F-4E9F-A3C3-895B8343E74B}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{5CFFDBC3-C99F-4E9F-A3C3-895B8343E74B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5CFFDBC3-C99F-4E9F-A3C3-895B8343E74B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PLAY_MUSIC" ID="{15F9AA92-7894-48BC-AE33-AC32CE95B8DC}">
+					<ChildrenList>
+						<Action Name="" ID="{0E1A99D2-D2BA-4549-9777-78B7824FDD1C}" ShortID="171506306">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Container" ID="{18B4113F-0168-411C-8AF4-32F7C7DA4906}" WorkUnitID="{5B210AC4-6589-4789-8D5C-0135AC035318}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3C8D8E7D-5CE1-4B1E-92F4-E516258561DC}" ShortID="834849785">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MENU" ID="{CAFEFE15-3A9E-41B9-9F69-6522A521FD5D}" WorkUnitID="{8887BB0A-D3E5-4D0F-9EC0-BD8CF114A148}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7AEACB71-85A2-4848-A7B6-FE58B565D71D}" ShortID="877444021">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Container" ID="{18B4113F-0168-411C-8AF4-32F7C7DA4906}" WorkUnitID="{5B210AC4-6589-4789-8D5C-0135AC035318}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Second_Cinema" ID="{360E41F3-9636-4FB2-8500-10FE1CE96E38}">
+					<ChildrenList>
+						<Action Name="" ID="{0B3B8BA7-6680-4D91-A79E-1123498F32A8}" ShortID="221555199">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SECONG_CINEMA" ID="{4CFC4249-C91E-494F-B553-74816D169E13}" WorkUnitID="{8887BB0A-D3E5-4D0F-9EC0-BD8CF114A148}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{75F200A5-23BC-4D3B-8E1F-6290B4A6C603}" ShortID="324982752">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Second_Cinema" ID="{BEC58F81-1913-4903-A383-9531D33CDE1B}" WorkUnitID="{5B210AC4-6589-4789-8D5C-0135AC035318}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2EC9E3C6-FCAD-489D-B831-A2AF570F8E4D}" ShortID="712180363">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Second_Cinema" ID="{BEC58F81-1913-4903-A383-9531D33CDE1B}" WorkUnitID="{5B210AC4-6589-4789-8D5C-0135AC035318}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

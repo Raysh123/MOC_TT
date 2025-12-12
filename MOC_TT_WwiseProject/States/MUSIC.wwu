@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8887BB0A-D3E5-4D0F-9EC0-BD8CF114A148}" SchemaVersion="123" RootDocumentID="{DBDC21F0-760E-415C-B49A-135C96449EF5}" ParentDocumentID="{DBDC21F0-760E-415C-B49A-135C96449EF5}">
+	<States>
+		<WorkUnit Name="MUSIC" ID="{8887BB0A-D3E5-4D0F-9EC0-BD8CF114A148}" OwnerID="{DBDC21F0-760E-415C-B49A-135C96449EF5}" PersistMode="Nested">
+			<ChildrenList>
+				<StateGroup Name="MUSIC_GAMEPLAY" ID="{E9CF9273-1118-4DBF-ADB8-1C4D70BE63D9}">
+					<ChildrenList>
+						<State Name="None" ID="{E4C0CD46-9096-46CB-ABF8-08DDBE466D20}"/>
+						<State Name="MENU" ID="{CAFEFE15-3A9E-41B9-9F69-6522A521FD5D}"/>
+						<State Name="FIRST_CHILDREN" ID="{4EC8D735-A3F4-47CE-9DAA-2F0005206865}"/>
+						<State Name="SECONG_CINEMA" ID="{4CFC4249-C91E-494F-B553-74816D169E13}"/>
+						<State Name="THIRD_BOSS" ID="{B2A3059A-1839-49CB-B391-94E8CF9C5E1E}"/>
+						<State Name="WIN" ID="{6804B896-6EA7-4352-AD3A-E982E6519D01}"/>
+						<State Name="INTRO_STORY" ID="{5E966943-7740-4259-B52E-1F0B82462265}"/>
+						<State Name="Loading" ID="{B85B640D-226C-429D-AA59-A4FA001686E3}"/>
+						<State Name="FIRST_LASTTAKE" ID="{30C5A6EF-90C4-4F30-9806-4A469F7825E7}"/>
+						<State Name="BOAT" ID="{FE94416C-6FAC-44ED-9BD2-EB4DADA5B3B8}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
