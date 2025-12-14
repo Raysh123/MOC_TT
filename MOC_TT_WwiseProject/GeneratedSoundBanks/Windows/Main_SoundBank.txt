@@ -1,0 +1,47 @@
+Event	ID	Name			Wwise Object Path	Notes
+	625628268	Play_Second_Cinema			\Default Work Unit\Play_Second_Cinema	
+	2932040671	PLAY_MUSIC			\Default Work Unit\PLAY_MUSIC	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	620878633	MUSIC_GAMEPLAY			\Default Work Unit\MUSIC\MUSIC_GAMEPLAY	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MUSIC_GAMEPLAY			
+	923969124	THIRD_BOSS	MUSIC_GAMEPLAY			
+	979765101	WIN	MUSIC_GAMEPLAY			
+	1424940868	SECONG_CINEMA	MUSIC_GAMEPLAY			
+	1795056175	BOAT	MUSIC_GAMEPLAY			
+	1919350313	FIRST_CHILDREN	MUSIC_GAMEPLAY			
+	2607556080	MENU	MUSIC_GAMEPLAY			
+	3085756341	FIRST_LASTTAKE	MUSIC_GAMEPLAY			
+	3573931707	Loading	MUSIC_GAMEPLAY			
+	4210037571	INTRO_STORY	MUSIC_GAMEPLAY			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2616787940	WaterLevel			\Default Work Unit\WaterLevel	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	95453644	moc_boss_127bpm_cminor_stringsrepeated	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\A8\{A8A64512-D683-A6E9-C114-A72989B23BDD}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\Third_Boss\moc_boss_127bpm_cminor_drums\moc_boss_127bpm_cminor_stringsrepeated		410004
+	109880530	moc_pirateship_loop_154bpm_68_gmajor	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\9B\{9BEEEA3C-C033-915A-7E0D-1FEE0C15A61A}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\Boat\Pirat\moc_pirateship_loop_154bpm_68_gmajor		483161
+	115181450	moc_heroalex_132bpm_Aflatmajor_bass	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\08\{08F8A941-FC19-FEEA-166D-B1E07D445D71}.wem		\Interactive Music Hierarchy\Default Work Unit\Second_Cinema\moc_heroalex_132bpm_Aflatmajor_bass\moc_heroalex_132bpm_Aflatmajor_bass		55442
+	247388407	moc_boss_127bpm_cminor_drums	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\A5\{A5DBDAF4-A8B6-964A-552F-AB3A5B3D0109}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\Third_Boss\moc_boss_127bpm_cminor_drums\moc_boss_127bpm_cminor_drums		737506
+	252523199	moc_heroalex_132bpm_Aflatmajor_percussion	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\B9\{B990B8A3-9F75-B9AE-1D81-F73C94B98918}.wem		\Interactive Music Hierarchy\Default Work Unit\Second_Cinema\moc_heroalex_132bpm_Aflatmajor_bass\moc_heroalex_132bpm_Aflatmajor_percussion		346652
+	285678515	MOC_Menu_MX	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\7E\{7E0010F9-0D35-0D69-1E46-4FDA13822AA2}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\INTRO_STORY\MOC_Menu_MX\MOC_Menu_MX		884645
+	366304805	moc_heroalex_132bpm_Aflatmajor_strings	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\DE\{DE1DFEAC-DF49-BBDB-F875-35C48BFC4313}.wem		\Interactive Music Hierarchy\Default Work Unit\Second_Cinema\moc_heroalex_132bpm_Aflatmajor_bass\moc_heroalex_132bpm_Aflatmajor_strings		253383
+	369282268	MOC_Gameplay_MX_DRUMS_135bpm	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\B5\{B56576A6-2BB7-C494-2F92-6E922E39B839}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\First_children\ALL STEMS - MOC\MOC_Gameplay_MX_DRUMS_135bpm		510881
+	411773504	MOC_Action1_MX	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\9F\{9FF4EFBC-C12A-C30E-4F77-8EC73AB2C647}.wem		\Interactive Music Hierarchy\Default Work Unit\Second_Cinema\MOC_Action1_MX\MOC_Action1_MX		356811
+	444805379	MOC_Gameplay_MX_SAX_135bpm	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\38\{38630B34-DD68-3A59-F800-7DA42029D3CE}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\First_children\ALL STEMS - MOC\MOC_Gameplay_MX_SAX_135bpm		306284
+	584918850	MOC_Gameplay DRUMS-verb_MX_135bpm	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\A4\{A4FD434E-FF1E-1B35-68A1-40ACBA2BD480}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\First_children\ALL STEMS - MOC\MOC_Gameplay DRUMS-verb_MX_135bpm		457724
+	621210312	MOC_TransFromMenu_MX_135bpm	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\5A\{5A64B73F-DFB9-C50E-CFD0-0CC0540BA543}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\MOC_TransFromMenu_MX_135bpm\MOC_TransFromMenu_MX_135bpm		118431
+	751137805	moc_heroalex_132bpm_Aflatmajor_brass	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\82\{82BF3BDB-1BCD-A1D3-6C84-FB23D27B0B8A}.wem		\Interactive Music Hierarchy\Default Work Unit\Second_Cinema\moc_heroalex_132bpm_Aflatmajor_bass\moc_heroalex_132bpm_Aflatmajor_brass		264989
+	850288933	moc_boss_127bpm_cminor_stringsshorts	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\2D\{2DB73393-87DD-E89D-27EA-EE4DACC2AE9B}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\Third_Boss\moc_boss_127bpm_cminor_drums\moc_boss_127bpm_cminor_stringsshorts		545729
+	859846468	moc_boss_127bpm_cminor_eguitar	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\2C\{2C6847EF-A70F-44B0-9B09-9C00AECAF5CB}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\Third_Boss\moc_boss_127bpm_cminor_drums\moc_boss_127bpm_cminor_eguitar		517336
+	861063286	moc_boss_127bpm_cminor_organ	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\38\{3850FE47-4DD2-2165-8118-3ABD07F5B966}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\Third_Boss\moc_boss_127bpm_cminor_drums\moc_boss_127bpm_cminor_organ		848983
+	938993207	BassWin	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\9C\{9C90B60D-F7CF-7ECA-18EC-C2DAF1643922}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\Win_BASS\BassWin\BassWin		799112
+	969120383	MOC_Gameplay DRUMS-verb_MX_135bpm	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\A4\{A4FD434E-FF1E-1B35-68A1-40ACBA2BD480}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\First_REVERB_LASTTAKE\MOC_Gameplay DRUMS-verb_MX_135bpm\MOC_Gameplay DRUMS-verb_MX_135bpm		457724
+	1007087949	MOC_Action2_MX	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\81\{81742EC7-CBDF-CF08-C84F-1149D592A490}.wem		\Interactive Music Hierarchy\Default Work Unit\Second_Cinema\MOC_Action2_MX\MOC_Action2_MX		286697
+	1039426001	moc_boss_127bpm_cminor_stringslong	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\78\{786E89BF-4439-671E-C65D-097534F1F568}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\Third_Boss\moc_boss_127bpm_cminor_drums\moc_boss_127bpm_cminor_stringslong		238942
+	1049968011	moc_boss_127bpm_cminor_stringstremolo+scales	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\81\{8162F55D-1CD9-8ABB-E7F9-6CA5103B6809}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\Third_Boss\moc_boss_127bpm_cminor_drums\moc_boss_127bpm_cminor_stringstremolo+scales		290817
+	1061366601	moc_pirateship_intro_154bpm_68_gmajor 	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\B2\{B2F9DBC2-71AA-BECD-94AC-E7A14B6417E1}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\Boat\Pirat\moc_pirateship_intro_154bpm_68_gmajor 		113454
+	1066836019	MOC_Gameplay_MX_BASS_135bpm	D:\Unreal Projects\MOC_TT\MOC_TT_WwiseProject\.cache\81\{81B1CB7B-5EAB-9442-9EAE-4F8FF70DA1E1}.wem		\Interactive Music Hierarchy\Default Work Unit\Container\First_children\ALL STEMS - MOC\MOC_Gameplay_MX_BASS_135bpm		220510
+

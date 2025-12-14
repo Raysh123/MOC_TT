@@ -2355,6 +2355,11 @@
 						<MusicSegment Name="MOC_Action1_MX" ID="{DDFE5A00-2737-4057-83E0-54EB4F3F332D}" ShortID="797300926">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="21859.5914034279"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2366,6 +2371,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="MOC_Action1_MX" ID="{15E0E159-DE78-4550-AEB1-566D9714B5B9}" ShortID="140121576">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3BCF1E6-6047-4C1C-92E8-3CDE20D11FB3}"/>
